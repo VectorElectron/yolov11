@@ -91,6 +91,20 @@ This will load a test image, run detection, and display the results with boundin
 
 ![Python Example](https://github.com/user-attachments/assets/7b63d4ed-13d4-49d9-b6f6-1b9c3fa2e5ba)
 
+## Model Files
+
+YOLOv11 Vectron provides a set of pre-trained models and necessary files for object detection. These files are included in the package and can also be downloaded separately if needed.
+
+| File | Description | Size | Download |
+|------|-------------|------|----------|
+| index.html | Web interface for browser-based detection | 11.1 KB | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/index.html) |
+| testimg.png | Sample image for testing | 418 KB | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/testimg.png) |
+| yolo11n.onnx | YOLOv11 nano model (detection only) | 10.5 MB | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/yolo11n.onnx) |
+| yolo11n_one.onnx | Combined model with preprocessing and postprocessing | 10.5 MB | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/yolo11n_one.onnx) |
+| yolov11-dic80.txt | COCO dataset class names | 701 Bytes | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/yolov11-dic80.txt) |
+| yolo_nms.onnx | Non-Maximum Suppression operator | 35 KB | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/yolo_nms.onnx) |
+| yolo_resize.onnx | Image resizing operator | 4.97 KB | [Download](https://github.com/VectorElectron/yolov11/releases/download/model/yolo_resize.onnx) |
+
 ## JavaScript Usage
 
 YOLOv11 Vectron supports pure frontend deployment using ONNX Runtime Web. For a complete implementation, please refer to `yolov11_vectron/model/index.html`.
