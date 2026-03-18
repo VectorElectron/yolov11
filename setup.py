@@ -7,7 +7,7 @@ setup(
     author="vectorelectron",
     packages=find_packages(),
     package_data={
-        "ppocr_vectron": ["model/*"],
+        "yolov11_vectron": ["model/*"],
     },
     include_package_data=True,
     install_requires=[
